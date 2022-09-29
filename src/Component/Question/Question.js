@@ -4,8 +4,8 @@ import'./Question.css'
 const Question = () => {
   return (
     <div className="faq-full-container">
-      <h1 className='faq-title'> Asked Some Question?</h1>
       <div className="faq-container">
+        <h1 className='faq-title'> Asked Some Question?</h1>
         <div className="text-container">
           <h2> 1.How Does react Work ?</h2>
           <p>
@@ -18,34 +18,40 @@ const Question = () => {
         </div>
         <div className="text-container">
           <h2>2.Difference between props & state in react ?</h2>
-          <p>
+          <div>
             <h3>Props:</h3>
-            <li>are immutable</li>
-            <li>which lets React do fast reference checks</li>
-            <li>are used to pass data down from your view-controller</li>
-            <li>your top level component</li>
-            <li>use this to pass data to child components</li>
+            <ul>
+              <li>are immutable</li>
+              <li>which lets React do fast reference checks</li>
+              <li>are used to pass data down from your view-controller</li>
+              <li>your top level component</li>
+              <li>use this to pass data to child components</li>
+            </ul>
             <h3>State:</h3>
-            <li>are immutable</li>
-            <li>which lets React do fast reference checks</li>
-            <li>are used to pass data down from your view-controller</li>
-            <li>your top level component</li>
-            <li>use this to pass data to child components</li>
-          </p>
+            <ul>
+              <li>are immutable</li>
+              <li>which lets React do fast reference checks</li>
+              <li>are used to pass data down from your view-controller</li>
+              <li>your top level component</li>
+              <li>use this to pass data to child components</li>
+            </ul>
+          </div>
         </div>
         <div className="text-container">
           <h2>3.what is the useEffect used for other than fetch API data?</h2>
-          <li>Running on state change: validating input field </li>
-          <li>Running on state change: live filtering</li>
-          <li>Running on state change: trigger animation on new array value</li>
-          <li>
-            Running on props change: update paragraph list on fetched API data
-            update
-          </li>
-          <li>
-            Running on props change: updating fetched API data to get BTC
-            updated price
-          </li>
+          <ul>
+            <li>Running on state change: validating input field </li>
+            <li>Running on state change: live filtering</li>
+            <li>Running on state change: trigger animation on new array value</li>
+            <li>
+              Running on props change: update paragraph list on fetched API data
+              update
+            </li>
+            <li>
+              Running on props change: updating fetched API data to get BTC
+              updated price
+            </li>
+          </ul>
         </div>
       </div>
     </div>
