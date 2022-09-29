@@ -28,6 +28,6 @@
 @media only screen and (max-width: 576px){
 /*Small smartphones [0px -> 576px]*/
   .faq-full-container{
-    margin-top: 80%;
+    margin-top: 100%;
   }
 }
