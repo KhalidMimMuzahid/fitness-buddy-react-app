@@ -5,7 +5,7 @@
     "forAge": "20-50",
     "duration": 60,
     "name": "Lunges",
-    "details": "Challenging your balance is an essential part of a well-rounded exercise routine. Lunges do just that, promoting functional movement while also increasing strength in your legs and glutes."
+    "details": "Challenging your balance is an essential part of a well-rounded exercise routine. Lunges do just that, promoting functional movement."
   },
   {
     "id": "6335134c0711c847566b5d79",
@@ -13,7 +13,7 @@
     "forAge": "20-45",
     "duration": 75,
     "name": "Pushups",
-    "details": "Drop and give me 20! Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles that are recruited to perform them."
+    "details": "Drop and give me 20! Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles."
   },
   {
     "id": "6335134ce0210366fcbc3abf",
@@ -21,15 +21,15 @@
     "forAge": "20-45",
     "duration": 75,
     "name": "Squats",
-    "details": "Squats increase lower body and core strength, as well as flexibility in your lower back and hips. Because they engage some of the largest muscles in the body, they also pack a major punch in terms of calories burned."
+    "details": "Squats increase lower body and core strength, as well as flexibility in your lower back and hips."
   },
   {
     "id": "6335134cab84126cf9775ed6",
     "picture": "https://i.pinimg.com/originals/d8/03/50/d80350c686ea43cf31397589efa47e06.gif",
     "forAge": "20-50",
     "duration": 60,
-    "name": "Standing overhead dumbbell presses",
-    "details": "Compound exercises, which utilize multiple joints and muscles, are perfect for busy bees as they work several parts of your body at once. A standing overhead press isn't only one of the best exercises you can do for your shoulders, but it also engages your upper back and core."
+    "name": "dumbbell presses",
+    "details": "Compound exercises, which utilize multiple joints and muscles, are perfect for busy bees as they work several parts of your body at once."
   },
   {
     "id": "6335134c4aa495da9dad0c01",
@@ -37,7 +37,7 @@
     "forAge": "25-45",
     "duration": 60,
     "name": "Single-leg deadlifts",
-    "details": "This is another exercise that challenges your balance. Single-leg deadlifts require stability and leg strength. Grab a light to moderate dumbbell to complete this move."
+    "details": "This is another exercise that challenges your balance. Single-leg deadlifts require stability and leg strength."
   },
   {
     "id": "6548754c4ab445da9dad0c06",
@@ -45,7 +45,7 @@
     "forAge": "25-55",
     "duration": 60,
     "name": "Abs Workout",
-    "details": "To do this best ab workout without equipment, get down on the floor on your hands and knees. Balance your body on your toes and palms. Lift one foot bend it by the knee and bring it closer to your chest."
+    "details": "To do this best ab workout without equipment, get down on the floor on your hands and knees. Balance your body on your toes and palms."
   },
   {
     "id": "6335134ca43b06d153baba17",
