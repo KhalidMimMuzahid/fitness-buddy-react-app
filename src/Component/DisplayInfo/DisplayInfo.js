@@ -5,7 +5,8 @@ import ReactDOM from 'react-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 
-const DisplayInfo = () => {
+const DisplayInfo = ({exTimeF}) => {
+    // console.log(exTimeF)
     const [exercises, setExercises]= useState([])
     useEffect(()=>{
         fetch('data.json')
@@ -25,7 +26,7 @@ const DisplayInfo = () => {
                     exercises.map(exercise => <Exercise 
                         exercise={exercise} 
                         key={exercise.id}
-                        
+                        exTimeF={exTimeF}
                         ></Exercise>)
                 }
             </div>

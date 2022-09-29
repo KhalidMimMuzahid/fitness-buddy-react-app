@@ -1,8 +1,9 @@
 import React from 'react';
 import './Exercise.css'
 
-const Exercise = ({exercise}) => {
+const Exercise = ({exercise,exTimeF}) => {
     // console.log(exercise)
+    const exerciseTimeF=exTimeF;
     return (
         <div className='exercise'>
             <img src={exercise.picture} alt="" />
@@ -13,7 +14,7 @@ const Exercise = ({exercise}) => {
                     <h6>For Age: {exercise.forAge}</h6>
                     <h6>Time required: {exercise.duration}</h6>
                 </div>
-                <button>Add to list</button>
+                <button onClick={()=>exerciseTimeF(exercise.duration)}>Add to list</button>
             </div>
         </div>
     );
