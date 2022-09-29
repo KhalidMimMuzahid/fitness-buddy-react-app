@@ -39,15 +39,15 @@ const RecordedInfo = ({exTimeArray}) => {
                     </div>
                     <div className='user-physical-info'>
                         <div>
-                            <h3>75kg</h3>
+                            <h5>75kg</h5>
                             <p>weight</p>
                         </div>
                         <div>
-                            <h3>5' 8"</h3>
+                            <h5>5' 8"</h5>
                             <p>height</p>
                         </div>
                         <div>
-                            <h3>26 years</h3>
+                            <h5>26 years</h5>
                             <p>age</p>
                         </div>
                     </div>
