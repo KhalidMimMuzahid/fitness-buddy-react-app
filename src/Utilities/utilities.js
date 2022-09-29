@@ -1,18 +1,15 @@
-const setExTimeToDB=(duration)=>{
-    console.log(duration)
-    const exTimeExistsString= localStorage.getItem('exTime');
-    if(!exTimeExistsString){
-        let exTimeArray=[];
-        exTimeArray.push(duration)
-        let exTimeArrayString=JSON.stringify(exTimeArray)
-        localStorage.setItem('exTime',exTimeArrayString)
+
+const setBreakTimeToDB=(BreakTime)=>{
+    localStorage.setItem('breakTime',BreakTime);
+}
+const getBreakTimeFromDB=()=>{
+    const breakTime = localStorage.getItem('breakTime');
+    if(breakTime){
+        return breakTime;
     }
     else{
-        let exTimeArray= JSON.parse(exTimeExistsString);
-        console.log(exTimeArray)
-        exTimeArray.push(duration);
-        let exTimeArrayString=JSON.stringify(exTimeArray)
-        localStorage.setItem('exTime',exTimeArrayString)
+        return 0;
     }
 }
-export{setExTimeToDB}
+
+export{setBreakTimeToDB, getBreakTimeFromDB}

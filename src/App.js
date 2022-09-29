@@ -11,7 +11,6 @@ function App() {
     let newExTime=[];
     newExTime=[...exTime,timeDuration];
     setExTime(newExTime)
-    console.log(exTime)
   }
   // useEffect(()=>{
   //   let exTimeDurationString = localStorage.getItem('exTime');
