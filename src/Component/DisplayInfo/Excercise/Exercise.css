@@ -1,0 +1,22 @@
+.exercise{
+    border: 10px solid rgb(172, 234, 234);
+    border-radius: 10px;
+    box-shadow: 15px 10px 20px rgb(41, 70, 70);
+    background-color: rgb(172, 234, 234);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.exercise-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.exercise img{
+    width: 100%;
+    height: 200px;
+}
+.exercise-info{
+    margin-left: 3%;
+    margin-right: 3%;
+}

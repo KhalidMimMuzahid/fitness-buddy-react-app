@@ -1,0 +1,74 @@
+[
+  {
+    "id": "6335134ccbd260b1f0d12ac6",
+    "picture": "https://i.pinimg.com/originals/eb/17/ba/eb17ba99a83a876db3eb3d10a013029c.gif",
+    "forAge": "20-50",
+    "duration": 60,
+    "name": "Lunges",
+    "details": "Challenging your balance is an essential part of a well-rounded exercise routine. Lunges do just that, promoting functional movement while also increasing strength in your legs and glutes."
+  },
+  {
+    "id": "6335134c0711c847566b5d79",
+    "picture": "https://i.pinimg.com/originals/20/bd/95/20bd95eedf13ae9e111fe4e2953e0707.gif",
+    "forAge": "20-45",
+    "duration": 75,
+    "name": "Pushups",
+    "details": "Drop and give me 20! Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles that are recruited to perform them."
+  },
+  {
+    "id": "6335134ce0210366fcbc3abf",
+    "picture": "https://i.pinimg.com/originals/5b/9b/3f/5b9b3f6d8573099e15d93cc29e730f04.gif",
+    "forAge": "20-45",
+    "duration": 75,
+    "name": "Squats",
+    "details": "Squats increase lower body and core strength, as well as flexibility in your lower back and hips. Because they engage some of the largest muscles in the body, they also pack a major punch in terms of calories burned."
+  },
+  {
+    "id": "6335134cab84126cf9775ed6",
+    "picture": "https://i.pinimg.com/originals/d8/03/50/d80350c686ea43cf31397589efa47e06.gif",
+    "forAge": "20-50",
+    "duration": 60,
+    "name": "Standing overhead dumbbell presses",
+    "details": "Compound exercises, which utilize multiple joints and muscles, are perfect for busy bees as they work several parts of your body at once. A standing overhead press isn't only one of the best exercises you can do for your shoulders, but it also engages your upper back and core."
+  },
+  {
+    "id": "6335134c4aa495da9dad0c01",
+    "picture": "https://i.pinimg.com/originals/53/82/7e/53827e28d0eac694546f4167aed4e8ba.gif",
+    "forAge": "25-45",
+    "duration": 60,
+    "name": "Single-leg deadlifts",
+    "details": "This is another exercise that challenges your balance. Single-leg deadlifts require stability and leg strength. Grab a light to moderate dumbbell to complete this move."
+  },
+  {
+    "id": "6548754c4ab445da9dad0c06",
+    "picture": "https://i.pinimg.com/originals/e9/14/05/e9140530fb02505a86d84c3dc61d3575.gif",
+    "forAge": "25-55",
+    "duration": 60,
+    "name": "Abs Workout",
+    "details": "To do this best ab workout without equipment, get down on the floor on your hands and knees. Balance your body on your toes and palms. Lift one foot bend it by the knee and bring it closer to your chest."
+  },
+  {
+    "id": "6335134ca43b06d153baba17",
+    "picture": "https://i.pinimg.com/originals/d3/68/bc/d368bc3eed1096a934e7f711f578969b.gif",
+    "forAge": "20-40",
+    "duration": 75,
+    "name": "Bear Crawl Squat",
+    "details": "The bear crawl squat works your core, quads, and shoulders, while increasing flexibility in the back of your body. Here's how to do it."
+  },
+  {
+    "id": "6335134c30a5d1892344f4e1",
+    "picture": "https://i.pinimg.com/originals/c0/b4/05/c0b40599c7114c89b23cd50b9e022776.gif",
+    "forAge": "25-40",
+    "duration": 90,
+    "name": "The Spartacus Workout",
+    "details": "This high-intensity circuit routine can strip away fat and define every muscle in your body"
+  },
+  {
+    "id": "6335134c817b42137c6d5421",
+    "picture": "https://i.pinimg.com/originals/ae/99/e2/ae99e2ea6dc2cd29f98a5014db4aeb09.gif",
+    "forAge": "25-35",
+    "duration": 90,
+    "name": "The Quadzilla Workout",
+    "details": "This 15-Minute Quadzilla Workout will blow up your quads in just 4 moves. Get bigger, stronger, well-defined legs here"
+  }
+]

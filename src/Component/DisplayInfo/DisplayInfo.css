@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.header span{
+    margin-right: 5px;
+}
+.exercises{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 3%;
+}
+@media only screen and (max-width: 992px){
+    /*Tablets [577px -> 992px]*/
+    .exercises{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+@media only screen and (max-width: 576px){
+	/*Small smartphones [0px -> 576px]*/
+    .exercises{
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 1%;
+    }
+}
