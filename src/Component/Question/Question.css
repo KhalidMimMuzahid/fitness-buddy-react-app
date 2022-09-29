@@ -1,0 +1,20 @@
+.faq-title{
+  text-align: center;
+  margin-top: 5%;
+  font-size: 50px;
+}
+.faq-container{
+  background-color: rgb(161, 221, 195);
+  margin-top:3%;
+  width:92%;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4%;
+  box-shadow: 2px 2px 2px 2px gray;
+  padding-bottom: 10px;
+}
+.text-container{
+  padding-left: 10px;
+}

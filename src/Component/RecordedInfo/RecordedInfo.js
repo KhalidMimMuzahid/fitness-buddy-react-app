@@ -2,8 +2,16 @@ import React, { useEffect, useState } from 'react';
 import './RecordedInfo.css'
 import { setBreakTimeToDB, getBreakTimeFromDB} from '../../Utilities/utilities';
 import profilePic from '../../images/prifilePic.jpg'
+import { useRef } from "react";
+import Snackbar from '../Snackbar/Snackbar';
+const SnackbarType = {
+    success: "success",
+    fail: "fail",
+  };
 
 const RecordedInfo = ({exTimeArray}) => {
+    const snackbarRef = useRef(null);
+
     const [breakTimeDisplay,setBreakTimeDisplay]= useState([])
     let totalExTime= exTimeArray.reduce((total,current)=>{
         return total+ current ;
@@ -47,12 +55,12 @@ const RecordedInfo = ({exTimeArray}) => {
                 <div className='breaks-info'>
                     <h3>Add a Break</h3>
                     <div className='breaks'>
-                    {/* {breakTimes.map(breakTime=> <BreakTimes breakTime={breakTime}></BreakTimes>)} */}
-                        <p onClick={()=>setBreakTime(10)}>10s</p>
-                        <p onClick={()=>setBreakTime(20)}>20s</p>
-                        <p onClick={()=>setBreakTime(30)}>30s</p>
-                        <p onClick={()=>setBreakTime(40)}>40s</p>
-                        <p onClick={()=>setBreakTime(50)}>50s</p>
+                        {/* {breakTimes.map(breakTime=> <BreakTimes breakTime={breakTime}></BreakTimes>)} */}
+                        <p onClick={() => setBreakTime(10)}>10s</p>
+                        <p onClick={() => setBreakTime(20)}>20s</p>
+                        <p onClick={() => setBreakTime(30)}>30s</p>
+                        <p onClick={() => setBreakTime(40)}>40s</p>
+                        <p onClick={() => setBreakTime(50)}>50s</p>
                     </div>
                 </div>
                 <div className='exercise-details'>
@@ -67,7 +75,14 @@ const RecordedInfo = ({exTimeArray}) => {
                         <p><span id="break-time">{breakTimeDisplay}</span> seconds</p>
                     </div>
                 </div>
-                <button>Activity Completed</button>
+                <button onClick={() => {
+                    snackbarRef.current.show();
+                    }}>Activity Completed</button>
+                <Snackbar
+                    ref={snackbarRef}
+                    message="Task Completed Successfully!"
+                    type={SnackbarType.success}
+                />
             </div>
         </div>
     );

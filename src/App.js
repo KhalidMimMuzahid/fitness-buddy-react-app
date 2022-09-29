@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import DisplayInfo from './Component/DisplayInfo/DisplayInfo';
+import Question from './Component/Question/Question';
 import RecordedInfo from './Component/RecordedInfo/RecordedInfo';
 import { setExTimeToDB } from './Utilities/utilities';
 function App() {
@@ -22,7 +23,8 @@ function App() {
     <div className="App">
       <DisplayInfo exTimeF={exerciseTimeF}></DisplayInfo>
       <RecordedInfo exTimeArray={exTime}></RecordedInfo>
-      </div>
+      <Question></Question>
+    </div>
   );
 }
 

@@ -20,3 +20,7 @@
     margin-left: 3%;
     margin-right: 3%;
 }
+.exercise-info button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
