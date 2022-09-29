@@ -22,12 +22,12 @@
 @media only screen and (max-width: 992px){
   /*Tablets [577px -> 992px]*/
   .faq-full-container{
-    margin-top: 65%;
+    margin-top: 330px;
   }
 }
 @media only screen and (max-width: 576px){
 /*Small smartphones [0px -> 576px]*/
   .faq-full-container{
-    margin-top: 100%;
+    margin-top: 450px;
   }
 }
