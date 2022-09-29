@@ -2,7 +2,11 @@ import React from 'react';
 import './RecordedInfo.css'
 import profilePic from '../../images/prifilePic.jpg'
 
-const RecordedInfo = () => {
+const RecordedInfo = ({exTimeArray}) => {
+    // console.log(exTimeArray)
+    let totalExTime= exTimeArray.reduce((total,current)=>{
+        return total+ current ;
+    },0)
     return (
         <div>
             <div className='recorded-info'>
@@ -44,7 +48,7 @@ const RecordedInfo = () => {
 
                     <div className="exercise-block">
                         <h4>Exercise time</h4>
-                        <p><span id="excercise-time">200</span> seconds</p>
+                        <p><span id="excercise-time">{totalExTime}</span> seconds</p>
                     </div>
                     <div className="exercise-block">
                         <h4>Break time</h4>

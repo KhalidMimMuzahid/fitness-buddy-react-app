@@ -5,17 +5,24 @@ import RecordedInfo from './Component/RecordedInfo/RecordedInfo';
 import { setExTimeToDB } from './Utilities/utilities';
 function App() {
   const[exTime, setExTime]= useState([]);
-
+ 
   const exerciseTimeF=(timeDuration)=>{
-    setExTimeToDB(timeDuration)
+    // setExTimeToDB(timeDuration)
+    let newExTime=[];
+    newExTime=[...exTime,timeDuration];
+    setExTime(newExTime)
+    console.log(exTime)
   }
-  useEffect(()=>{
-
-  },[])
+  // useEffect(()=>{
+  //   let exTimeDurationString = localStorage.getItem('exTime');
+  //   let exTimeArray= JSON.parse(exTimeDurationString);
+  //   setExTime(exTimeArray);
+  //   console.log(exTime)
+  // },[])
   return (
     <div className="App">
       <DisplayInfo exTimeF={exerciseTimeF}></DisplayInfo>
-      <RecordedInfo></RecordedInfo>
+      <RecordedInfo exTimeArray={exTime}></RecordedInfo>
       </div>
   );
 }
