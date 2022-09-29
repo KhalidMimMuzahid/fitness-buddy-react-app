@@ -33,6 +33,7 @@
 }
 .breaks p:hover{
     background-color: rgb(141, 247, 242);
+    cursor: pointer;
 }
 .exercise-block{
     display: flex;

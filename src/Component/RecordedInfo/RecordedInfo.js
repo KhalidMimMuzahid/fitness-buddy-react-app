@@ -9,13 +9,15 @@ const RecordedInfo = ({exTimeArray}) => {
         return total+ current ;
     },0)
     const setBreakTime=(breakTime)=>{
-        setBreakTimeDisplay(breakTime);
+        // setBreakTimeDisplay(breakTime);
         setBreakTimeToDB(breakTime);
+        let getBreakTime= getBreakTimeFromDB();
+        setBreakTimeDisplay(getBreakTime);
     }
     useEffect(()=>{
         let breakTime= getBreakTimeFromDB();
         setBreakTimeDisplay(breakTime);
-    },[])
+    },[breakTimeDisplay])
     return (
         <div>
             <div className='recorded-info'>
